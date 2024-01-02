@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Internal External CSS</title>
+
+    <!-- External CSS Link-->
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css_text.css">
+    <link rel="stylesheet" href="css_selector.css">
+    <link rel="stylesheet" href="mixed_selector.css">
+    <link rel="stylesheet" href="css_border.css">
+
+    <!-- Internal CSS Section -->
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS Section start -->
+
+    <p style="color: blue; font-size: 16px">This is paragraph with inline CSS</p>
+
+    <!-- Inline CSS Section End -->
+
+    <!-- External Css Section Start -->
+
+    <h2>This is heading with External CSS</h2>
+    <p class="external-css">This is paragraph with External CSS</p>
+
+    <!-- External Css Section End -->
+
+    <!-- CSS Text Section -->
+
+    <p class="text-color">CSS Text Color</p>
+    <p class="text-alignment">Text Alignment</p>
+    <p class="text-decoration">Text Decoration</p>
+    <p class="font-size">Font Size</p>
+    <p class="font-family">Font Family</p>
+    <p class="font-style">Font Style</p>
+
+    <!-- Css Selector -->
+
+    <!-- Tag Selector -->
+    <h3>Tag selector</h3>
+
+    <!-- Class Selector -->
+    <h4 class="class">Class selector</h4>
+
+    <!-- ID Selector -->
+    <h5 id="id">Id selector</h5>
+
+    <!-- Universal Selector -->
+    <h6>Universal Selector *</h6>
+
+    <!-- Grouping Selector -->
+
+    <p class="item-1">Group Item 1</p>
+    <p class="item-2">Group Item 2</p>
+    <p class="item-3">Group Item 3</p>
+
+    <!-- Attribute Selector -->
+
+    <input type="email" name="email" id="email">
+    <input type="text" name="fname" id="fname">
+
+    <!-- Multiple Classes -->
+
+    <button class="button highlight">Click me I am in multiple selector</button>
+
+    <!-- Combined Selector -->
+
+    <div class="container">
+        <p>This is a paragraph inside a container.</p>
+    </div>
+
+    <!--  Element Type Selector -->
+
+    <div class="box">This is a box.</div>
+    <br>
+
+    <!-- CSS  Border -->
+    <div class="border">Border</div>
+
+
+
+</body>
+</html>

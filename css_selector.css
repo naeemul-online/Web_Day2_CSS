@@ -1,0 +1,52 @@
+/* Tag selector */
+h3 {
+    color:brown;
+}
+
+/* Class Selector */
+
+.class {
+    color: purple
+}
+
+/* ID Selector */
+
+#id {
+    color: blueviolet;
+}
+
+/* Universal Selector */
+* {
+    background-color:antiquewhite;
+}
+
+/* Grouping Selector */
+
+.item-1, .item-2, .item-3 {
+    font-style: italic;
+}
+
+/* Attribute Selector */
+
+input[type="text"] {
+    background-color: red;
+}
+
+/* multiple Classes */
+
+.button.highlight {
+    background-color: yellow;
+    color: blue;
+  }
+
+  /* Combined Selector */
+
+.container p {
+    font-size: 16px;
+  }
+
+/* Element Type Selector */
+div.box {
+    border: 1px solid #ccc;
+  }
+  

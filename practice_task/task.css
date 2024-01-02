@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    margin: 0 auto;
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+.skills-container {
+    background-color:aquamarine;
+    color:white;
+    font-size: 16px;
+    padding: 50px;
+    text-align: center;
+}
+
+.skills-1 {
+    background-color:chocolate;
+    width: 28%;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
+.skills-2 {
+    background-color:yellowgreen;
+    width: 28%;
+    display: inline-block;    
+    border-radius: 10px;
+    text-align: center;
+}
+.skills-3 {
+    background-color:red;
+    display:inline-block;
+    width: 28%;   
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: blueviolet;   
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+
+
+
+
